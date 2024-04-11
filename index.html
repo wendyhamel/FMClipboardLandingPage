@@ -16,126 +16,126 @@
   <script src="src/tailwind.config.js"></script>
 
 </head>
-<body>
-<main>
-  <div>
-    <picture>
-      <source srcset="./images/bg-header-mobile.png" media="(orientation:portrait)"/>
-      <img class="object-cover w-full" src="./images/bg-header-desktop.png" alt=" "/>
-    </picture>
-  </div>
-  <section>
-    <img src="./images/logo.svg" alt="clipboard logo">
-    <h1>A history of everything you copy</h1>
-    <p>Clipboard allows you to track and organize everything you
+<body class="antialiased text-gray-blue md:text-lg">
+<div class="absolute">
+  <picture>
+    <source srcset="./images/bg-header-mobile.png" media="(orientation:portrait)"/>
+    <img class="object-cover w-full" src="./images/bg-header-desktop.png" alt=" "/>
+  </picture>
+</div>
+<main class="relative pt-28 px-6 space-y-32">
+  <section class="grid items-center">
+    <img class="mx-auto mb-12" src="./images/logo.svg" alt="clipboard logo">
+    <h1 class="text-center font-semibold text-dark-gray-blue text-3xl">A history of everything you copy</h1>
+    <p class="text-center pt-6 pb-16">Clipboard allows you to track and organize everything you
   copy. Instantly access your clipboard on all your devices.</p>
-    <section>
-      <button>Download for iOS</button>
-      <button>Download for Mac</button>
+    <section class="space-y-6">
+      <button class="rounded-full border-b-2 border-dark-cyan shadow-lg shadow-cyan/50 bg-cyan w-full px-3 py-2 text-white font-semibold hover:bg-opacity-80 transition ease-out duration-150">Download for iOS</button>
+      <button class="rounded-full border-b-2 border-dark-blue shadow-lg shadow-blue/50 bg-blue w-full px-3 py-2 text-white font-semibold hover:bg-opacity-80 transition ease-out duration-150">Download for Mac</button>
     </section>
   </section>
   <section>
-    <h2>Keep track of your snippets</h2>
-    <p>Clipboard instantly stores any item you copy in the cloud,
+    <h2 class="font-semibold text-dark-gray-blue text-center text-3xl">Keep track of your snippets</h2>
+    <p class="text-center pt-6 pb-16">Clipboard instantly stores any item you copy in the cloud,
   meaning you can access your snippets immediately on all your
   devices. Our Mac and iOS apps will help you organize everything.</p>
-  </section>
-  <section>
-    <img src="./images/image-computer.png" alt="">
-    <ul>
-      <li>
-        <h3>Quick Search</h3>
-        <p>Easily search your snippets by content, category, web address, application, and more.</p>
-      </li>
-      <li>
-        <h3>iCloud Sync</h3>
-        <p>Instantly saves and syncs snippets across all your devices.</p>
-      </li>
-      <li>
-        <h3>Complete History</h3>
-        <p>Retrieve any snippets from the first moment you started using the app.</p>
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2>Access Clipboard anywhere</h2>
-    <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
-  snippets in a few simple clicks.</p>
-    <img src="./images/image-devices.png" alt="">
-  </section>
-  <section>
-    <h2>Supercharge your workflow</h2>
-    <p>We’ve got the tools to boost your productivity.</p>
-    <ul>
-      <li>
-        <img src="./images/icon-blacklist.svg" alt="">
-        <h3>Create blacklists</h3>
-        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-      </li>
-      <li>
-        <img src="./images/icon-text.svg" alt="">
-        <h3>Plain text snippets</h3>
-        <p>Remove unwanted formatting from copied text for a consistent look.</p>
-      </li>
-      <li>
-        <img src="./images/icon-preview.svg" alt="">
-        <h3>Sneak preview</h3>
-        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
-      </li>
-    </ul>
-  </section>
-  <section>
-    <ul>
-      <li>
-        <img src="./images/logo-google.png" alt="">
-      </li>
-      <li>
-        <img src="./images/logo-ibm.png" alt="">
-      </li>
-      <li>
-        <img src="./images/logo-microsoft.png" alt="">
-      </li>
-      <li>
-        <img src="./images/logo-hp.png" alt="">
-      </li>
-      <li>
-        <img src="./images/logo-vector-graphics.png" alt="">
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2>Clipboard for iOS and Mac OS</h2>
-    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-  and you’re ready to start adding to your clipboard.</p>
     <section>
-      <button>Download for iOS</button>
-      <button>Download for Mac</button>
+      <img src="./images/image-computer.png" alt=" ">
+      <ul class="space-y-6 mt-16">
+        <li>
+          <h3 class="font-semibold text-dark-gray-blue text-center text-2xl">Quick Search</h3>
+          <p class="text-center pt-4">Easily search your snippets by content, category, web address, application, and more.</p>
+        </li>
+        <li>
+          <h3 class="font-semibold text-dark-gray-blue text-center text-2xl">iCloud Sync</h3>
+          <p class="text-center pt-4">Instantly saves and syncs snippets across all your devices.</p>
+        </li>
+        <li>
+          <h3 class="font-semibold text-dark-gray-blue text-center text-2xl">Complete History</h3>
+          <p class="text-center pt-4">Retrieve any snippets from the first moment you started using the app.</p>
+        </li>
+      </ul>
+    </section>
+  </section>
+  <section>
+    <h2 class="font-semibold text-dark-gray-blue text-center text-3xl">Access Clipboard anywhere</h2>
+    <p class="text-center pt-6 pb-16">Whether you’re on the go, or at your computer, you can access all your Clipboard
+  snippets in a few simple clicks.</p>
+    <img src="./images/image-devices.png" alt=" ">
+  </section>
+  <section>
+    <h2 class="font-semibold text-dark-gray-blue text-center text-3xl">Supercharge your workflow</h2>
+    <p class="text-center pt-6 pb-16">We’ve got the tools to boost your productivity.</p>
+    <ul class="space-y-12">
+      <li class="space-y-6">
+        <img class="mx-auto" src="./images/icon-blacklist.svg" alt=" ">
+        <h3 class="font-semibold text-dark-gray-blue text-center">Create blacklists</h3>
+        <p class="text-center">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </li>
+      <li class="space-y-6">
+        <img class="mx-auto" src="./images/icon-text.svg" alt=" ">
+        <h3 class="font-semibold text-dark-gray-blue text-center">Plain text snippets</h3>
+        <p class="text-center">Remove unwanted formatting from copied text for a consistent look.</p>
+      </li>
+      <li class="space-y-6">
+        <img class="mx-auto" src="./images/icon-preview.svg" alt=" ">
+        <h3 class="font-semibold text-dark-gray-blue text-center">Sneak preview</h3>
+        <p class="text-center">Quick preview of all snippets on your Clipboard for easy access.</p>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <ul class="grid gap-12 place-items-center">
+      <li>
+        <img src="./images/logo-google.png" alt="google">
+      </li>
+      <li>
+        <img src="./images/logo-ibm.png" alt="IBM">
+      </li>
+      <li>
+        <img src="./images/logo-microsoft.png" alt="Microsoft">
+      </li>
+      <li>
+        <img src="./images/logo-hp.png" alt="Hewlett Packard Enterprise">
+      </li>
+      <li>
+        <img src="./images/logo-vector-graphics.png" alt="Vector Graphics">
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2 class="font-semibold text-dark-gray-blue text-center text-3xl">Clipboard for iOS and Mac OS</h2>
+    <p class="text-center">Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+  and you’re ready to start adding to your clipboard.</p>
+    <section class="space-y-6">
+      <button class="rounded-full border-b-2 border-dark-cyan shadow-lg shadow-cyan/50 bg-cyan w-full px-3 py-2 text-white font-semibold hover:bg-opacity-80 transition ease-out duration-150">Download for iOS</button>
+      <button class="rounded-full border-b-2 border-dark-blue shadow-lg shadow-blue/50 bg-blue w-full px-3 py-2 text-white font-semibold hover:bg-opacity-80 transition ease-out duration-150">Download for Mac</button>
     </section>
   </section>
 </main>
 
-  <footer>
-    <section>
-      <img src="./images/logo.svg" alt="clipboad logo">
-      <ul>
-        <li><a href="">FAQs</a></li>
-        <li><a href="">Contact Us</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Press Kit</a></li>
-        <li><a href="">Install Guide</a></li>
-      </ul>
-      <ul>
-        <li><a href=""><img src="./images/icon-facebook.svg" alt="clipboard facebook"></a></li>
-        <li><a href=""><img src="./images/icon-twitter.svg" alt="clipboard twitter"></a></li>
-        <li><a href=""><img src="./images/icon-instagram.svg" alt="clipboard instagram"></a></li>
-      </ul>
-    </section>
-    <section class="fixed bottom-0 inset-x-0 text-center text-xs py-1 bg-white opacity-0 translate-y-2 hover:opacity-90 hover:translate-y-0 transform transition ease-out duration-300 md:py-2">
-      <div class="px-2 text-center">
-        Challenge by <a class="text-dark-gray-blue hover:text-blue hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9" target="_blank">Frontend Mentor</a>.
-        Coded by <a class="text-dark-gray-blue hover:text-blue hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/profile/wendyhamel" target="_blank">Wendy Hamel</a>.
-      </div>
-    </section>
-  </footer>
+<footer class="bg-gray-blue/10 text-dark-gray-blue py-12 mt-24">
+  <section class="space-y-10">
+    <img class="mx-auto w-12" src="./images/logo.svg" alt="clipboad logo">
+    <ul class="space-y-6 text-center">
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#">FAQs</a></li>
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#">Contact Us</a></li>
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#">Privacy Policy</a></li>
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#">Press Kit</a></li>
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#">Install Guide</a></li>
+    </ul>
+    <ul class="flex justify-center gap-12 items-center">
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#"><img src="./images/icon-facebook.svg" alt="clipboard facebook"></a></li>
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#"><img src="./images/icon-twitter.svg" alt="clipboard twitter"></a></li>
+      <li><a class="hover:text-cyan transition ease-out duration-150" href="#"><img src="./images/icon-instagram.svg" alt="clipboard instagram"></a></li>
+    </ul>
+  </section>
+  <section class="fixed bottom-0 inset-x-0 text-center text-xs py-1 bg-white opacity-0 translate-y-2 hover:opacity-90 hover:translate-y-0 transform transition ease-out duration-300 md:py-2">
+    <div class="px-2 text-center">
+      Challenge by <a class="text-dark-gray-blue hover:text-blue hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9" target="_blank">Frontend Mentor</a>.
+      Coded by <a class="text-dark-gray-blue hover:text-blue hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/profile/wendyhamel" target="_blank">Wendy Hamel</a>.
+    </div>
+  </section>
+</footer>
 </body>
 </html>
