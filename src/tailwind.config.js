@@ -19,6 +19,7 @@ tailwind.config = {
 				'1.5xl': ['1.45rem', {lineHeight: '2rem'}],
 				'2.5xl': ['1.675rem', {lineHeight: '2.25rem'}],
 				'3.5xl': ['1.95rem', {lineHeight: '2.5rem'}],
+				'4.5xl': ['2.8rem', {lineHeight: '2.8rem'}],
 			}
 		}
 	}
